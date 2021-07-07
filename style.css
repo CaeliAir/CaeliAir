@@ -117,8 +117,13 @@ li a:hover {
 
 .items {
     /* display: block; */
-    background-image: url(images/20210630_164624.jpg);
+    background-image: url(images/IMG_5102.png);
 
     /* Set a specific height */
     min-height: 50vw;
+}
+
+.buying {
+    margin: 1px;
+    padding: 1px;
 }
