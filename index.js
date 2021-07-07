@@ -10,7 +10,7 @@ let prices = {
 let items = [];
 
 window.onload = () => {
-    items = JSON.parse(window.localStorage.items);
+    try{items = JSON.parse(window.localStorage.items);}catch(e){}
     document.querySelector(".my-float").textContent = " "+items.length;
     render();
 }
