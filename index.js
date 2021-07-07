@@ -20,7 +20,7 @@ let render = () => {
     for (let i = 0; i < items.length; i++) {
         let d = document.createElement("div");
         d.className = "cartItem";
-        d.innerHTML = `<p>${items[i][0]} | <span>$${items[i][1]*items[i][2]}</span> | <span>QTY. ${items[i][2]}</span></p>`;
+        d.innerHTML = `<p>${items[i][0]} | <span>$${items[i][1]*items[i][2]}</span> | <span>QTY. ${items[i][2]}</span><i style='float: right' class="fa fa-minus-circle"></i></p>`;
         crt.appendChild(d);
     }
 }
