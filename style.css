@@ -112,6 +112,7 @@ li a:hover {
 }
 
 .float{
+    z-index: 100000 !important;
 	position:fixed;
 	width:60px;
 	height:60px;
