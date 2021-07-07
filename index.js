@@ -1,5 +1,9 @@
 let prices = {
-    "Location": 10,
+    "Gibraltar Falls 50ml": 21,
+    "Gibraltar Falls 200ml": 69,
+    "Gibraltar Falls 500ml": 132,
+    "Gibraltar Falls 1000ml": 189,
+    "Gibraltar Falls 3000ml": 269,
     "Name Of Item": 69,
 };
 
