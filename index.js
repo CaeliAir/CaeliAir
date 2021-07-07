@@ -11,6 +11,7 @@ let items = [];
 
 window.onload = () => {
     items = JSON.parse(window.localStorage.items);
+    document.querySelector(".my-float").textContent = " "+items.length;
     render();
 }
 
