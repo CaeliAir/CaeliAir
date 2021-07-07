@@ -102,3 +102,23 @@ li a:hover {
     background-color: #111;
     color: aliceblue;
 }
+
+.item {
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+.row {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+}
+
+.items {
+    /* display: block; */
+    background-image: url(images/20210630_164624.jpg);
+
+    /* Set a specific height */
+    min-height: 50vw;
+}
