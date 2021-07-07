@@ -83,8 +83,8 @@ li a:hover {
 
 .row {
     position: absolute;
-    left: 50%;
-    translate: -50%;
+    /* left: 50%; */
+    /* translate: -50%; */
 }
 
 .items {
