@@ -127,3 +127,18 @@ li a:hover {
     margin: 1px;
     padding: 1px;
 }
+
+.cart {
+
+}
+
+.cartItem {
+    background-color: aliceblue;
+    padding: 1vw;
+    transition-duration: 0.4s;
+}
+
+.cartItem:hover {
+    background-color: #111;
+    color: aliceblue;
+}
